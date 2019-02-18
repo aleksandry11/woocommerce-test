@@ -1,11 +1,11 @@
 # ignore everything in the root except the "wp-content" directory.
 /*
-!wordpress/
+
 
 # ignore everything in the "wp-content" directory, except:
 # mu-plugins, plugins, and themes directories
-wordpress/*
-!wordpress/wp-content/themes/
+
+!/wordpress/wp-content/themes/
 
 # ignore all mu-plugins, plugins, and themes
 # unless explicitly whitelisted at the end of this file
